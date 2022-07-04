@@ -1,0 +1,64 @@
+
+.strip {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  border-bottom: 2px solid grey;
+  position: relative;
+}
+
+.SGlogo {
+    width: 200px;
+    margin: 0px 10px 10px 20px;
+    /* border: 1px solid red; */
+    margin: auto 5px;
+}
+
+.searchBar {
+    float: right;
+    position: absolute;
+    right: 10px;
+}
+
+input {
+    height: 20px;
+}
+
+button {
+    min-height: fit-content;
+    /* height: 35px; */
+    min-width: fit-content;
+    /* background-color: rgb(105, 184, 187); */
+    background-color: rgb(57, 84, 85);
+    border: 1px solid rgb(60, 114, 116);
+    border-radius: 6px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: 300;
+    color: rgb(144, 212, 214);
+    font-family: 'Merriweather', serif;
+}
+
+button:hover {
+    cursor: pointer;
+    /* font-size: x-large; */
+    font-weight: 600;
+    padding: 5px 20px;
+    color: rgb(48, 87, 88);
+    background-color: rgb(142, 227, 230);
+    transition-duration: 0.6s;
+}
+
+.sdt {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+span, label {
+    font-size: large;
+    font-weight: 600;
+}
